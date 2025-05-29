@@ -1,4 +1,7 @@
 node_modules/
-.vscode/
-.DS_Store
 .env
+.DS_Store
+logs/
+npm-debug.log*
+.vscode/
+.gitignore
