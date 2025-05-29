@@ -1,0 +1,162 @@
+[
+  {
+    "id": "1",
+    "title": "Atomic Habits",
+    "author": "James Clear",
+    "year": 2018,
+    "genre": "Self-help",
+    "poster": "https://m.media-amazon.com/images/I/91bYsX41DVL.jpg"
+  },
+  {
+    "id": "2",
+    "title": "The Alchemist",
+    "author": "Paulo Coelho",
+    "year": 1988,
+    "genre": "Fiction",
+    "poster": "https://m.media-amazon.com/images/I/71aFt4+OTOL.jpg"
+  },
+  {
+    "id": "3",
+    "title": "Sapiens",
+    "author": "Yuval Noah Harari",
+    "year": 2011,
+    "genre": "History",
+    "poster": "https://m.media-amazon.com/images/I/713jIoMO3UL.jpg"
+  },
+  {
+    "id": "4",
+    "title": "Deep Work",
+    "author": "Cal Newport",
+    "year": 2016,
+    "genre": "Productivity",
+    "poster": "https://m.media-amazon.com/images/I/81u5qfFz+ZL.jpg"
+  },
+  {
+    "id": "5",
+    "title": "The Pragmatic Programmer",
+    "author": "Andrew Hunt, David Thomas",
+    "year": 1999,
+    "genre": "Programming",
+    "poster": "https://m.media-amazon.com/images/I/41as+WafrFL._SX403_BO1,204,203,200_.jpg"
+  },
+  {
+    "id": "6",
+    "title": "Clean Code",
+    "author": "Robert C. Martin",
+    "year": 2008,
+    "genre": "Programming",
+    "poster": "https://m.media-amazon.com/images/I/41xShlnTZTL.jpg"
+  },
+  {
+    "id": "7",
+    "title": "1984",
+    "author": "George Orwell",
+    "year": 1949,
+    "genre": "Dystopian",
+    "poster": "https://m.media-amazon.com/images/I/71kxa1-0mfL.jpg"
+  },
+  {
+    "id": "8",
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "year": 1960,
+    "genre": "Classic",
+    "poster": "https://m.media-amazon.com/images/I/81OtwFxoGFL.jpg"
+  },
+  {
+    "id": "9",
+    "title": "The Lean Startup",
+    "author": "Eric Ries",
+    "year": 2011,
+    "genre": "Business",
+    "poster": "https://m.media-amazon.com/images/I/81-QB7nDh4L.jpg"
+  },
+  {
+    "id": "10",
+    "title": "Start With Why",
+    "author": "Simon Sinek",
+    "year": 2009,
+    "genre": "Business",
+    "poster": "https://m.media-amazon.com/images/I/61R1+vYzxgL.jpg"
+  },
+  {
+    "id": "11",
+    "title": "The Subtle Art of Not Giving a F*ck",
+    "author": "Mark Manson",
+    "year": 2016,
+    "genre": "Self-help",
+    "poster": "https://m.media-amazon.com/images/I/71QKQ9mwV7L.jpg"
+  },
+  {
+    "id": "12",
+    "title": "Zero to One",
+    "author": "Peter Thiel",
+    "year": 2014,
+    "genre": "Business",
+    "poster": "https://m.media-amazon.com/images/I/71m-MxdJ2WL.jpg"
+  },
+  {
+    "id": "13",
+    "title": "The Design of Everyday Things",
+    "author": "Don Norman",
+    "year": 1988,
+    "genre": "Design",
+    "poster": "https://m.media-amazon.com/images/I/71HMyqG6MRL.jpg"
+  },
+  {
+    "id": "14",
+    "title": "Thinking, Fast and Slow",
+    "author": "Daniel Kahneman",
+    "year": 2011,
+    "genre": "Psychology",
+    "poster": "https://m.media-amazon.com/images/I/71wFtU3E1JL.jpg"
+  },
+  {
+    "id": "15",
+    "title": "Rich Dad Poor Dad",
+    "author": "Robert T. Kiyosaki",
+    "year": 1997,
+    "genre": "Finance",
+    "poster": "https://m.media-amazon.com/images/I/81bsw6fnUiL.jpg"
+  },
+  {
+    "id": "16",
+    "title": "Man’s Search for Meaning",
+    "author": "Viktor E. Frankl",
+    "year": 1946,
+    "genre": "Psychology",
+    "poster": "https://m.media-amazon.com/images/I/81eB+7+CkUL.jpg"
+  },
+  {
+    "id": "17",
+    "title": "The Four Agreements",
+    "author": "Don Miguel Ruiz",
+    "year": 1997,
+    "genre": "Spirituality",
+    "poster": "https://m.media-amazon.com/images/I/81I-7b6-ypL.jpg"
+  },
+  {
+    "id": "18",
+    "title": "Hooked",
+    "author": "Nir Eyal",
+    "year": 2014,
+    "genre": "Product Design",
+    "poster": "https://m.media-amazon.com/images/I/71zaw8-S8ZL.jpg"
+  },
+  {
+    "id": "19",
+    "title": "Crushing It!",
+    "author": "Gary Vaynerchuk",
+    "year": 2018,
+    "genre": "Business",
+    "poster": "https://m.media-amazon.com/images/I/81Kh2ZV7o3L.jpg"
+  },
+  {
+    "id": "20",
+    "title": "Can’t Hurt Me",
+    "author": "David Goggins",
+    "year": 2018,
+    "genre": "Memoir",
+    "poster": "https://m.media-amazon.com/images/I/61z0Mr1Z9-L.jpg"
+  }
+]
