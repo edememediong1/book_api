@@ -18,3 +18,5 @@ const books = fs.readFile(booksPath, 'utf8', (err, data) =>
             return [];
         }
     })
+
+console.log(books)
