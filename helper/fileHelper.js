@@ -28,5 +28,13 @@ async function readBooks(){
 async function writeBooks(books) {
     try {
         await fs.writeFile(filePath, JSON.stringify(books, null, 2))
+    } catch (error) {
+        console.error("Error writing books:", error.message)
     }
+}
+
+
+module.exports = {
+    readBooks,
+    writeBooks
 }
