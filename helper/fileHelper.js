@@ -2,7 +2,7 @@ const fs = require('fs/promises')
 const path = require('path')
 
 // Get the path to data.json (located one level up from this file)
-const dataFilePath = path.join(__dirname, 'data.json')
+const filePath = path.join(__dirname,'..', 'data.json')
 
 /** 
  * Asynchronously reads and parses the data.json file.

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books</title>
+    <link rel="stylesheet" href="books.css">
+</head>
+<body>
+    <h1>Books List</h1>
+    <a href="/books/new">Add New Book</a>
+
+    <% if (books.length === 0) { %>
+        <p>No books available</p>
+    <%} else { %>
+        <ul class="book-grid">
+            <% books.forEach(book => { %>
+                <li>
+                    <img src="<%= book.poster %>" alt="<%= book.title %>" />
+                    <strong><%=book.title %></strong>
+                    <p><%=book.author%> </p> 
+                    <a href="/books/<%= book.id %>" >View</a>
+                    <form action="/books/<%= book.id %>/delete" method="POST" style="display:inline">
+                        <button type="submit">Delete</button>
+                    </form>
+                </li>
+            <% }) %>
+        </ul>
+    <% } %>
+</body>
+</html>
