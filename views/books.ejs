@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="books.css">
 </head>
 <body>
+    <%- include('partials/header') %>
     <h1>Books List</h1>
     <a href="/books/new">Add New Book</a>
 
@@ -27,5 +28,4 @@
             <% }) %>
         </ul>
     <% } %>
-</body>
-</html>
+    <%- include('partials/footer') %>

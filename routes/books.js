@@ -14,5 +14,24 @@ bookRouter.get('/', async (req, res) => {
     res.render('books', {books})
 })
 
+bookRouter.get('/:id', async (req, res) => {
+    const id = req.params.id
+    const books = await readBooks()
+  
+    
+    const bookIndex = books.findIndex((book) => {book.id === id}) 
+
+    if ( bookIndex == -1) {
+        res.status(404).end('Book not found')
+        return
+    }
+
+    book = books[bookIndex]
+    console.log(book)
+
+
+    res.render('book', {book})
+})
+
 
 module.exports = bookRouter
