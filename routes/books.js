@@ -36,20 +36,20 @@ bookRouter.get('/:id', async (req, res) => {
 
 
 bookRouter.post('/', async (req, res) => {
-    const book = req.body
-
     const books = await readBooks()
     const newBookId = books.length + 1
 
     const newBook = {
         "id": newBookId,
-        "title": book.title,
-        "poster": book.poster,
-        "author": book.author
+        "title": req.body.title,
+        "poster": req.body.poster,
+        "author": req.body.author
     }
 
-    allBooks = books.push(newBook)
-    await writeBooks(allBooks)
+    console.log(newBook)
+
+    books.push(newBook)
+    await writeBooks(books)
     res.redirect('/books')
 })
 
