@@ -3,9 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title><%= book.title %></title>
 </head>
 <body>
-    <%- include('/partials/header') %>
+<%- include('partials/header') %>
+<h2><%= book.title %></h2>
+<img src="<%= book.poster %>" alt="<%= book.title %>"
+<br>
+<form action="/books/<%=book.id %>/delete" method="post">
+    <button type="submit">Delete</button>
+</form>
+
+<br>
+<%- include('partials/footer')  %>
+
+
+
+
+
+
+
 
 
