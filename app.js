@@ -6,7 +6,7 @@ const app = express();
 const booksRoute = require('./routes/books')
 
 
-
+app.use(express.urlencoded({extended: true}))
 app.use(express.static('public'));
 app.use(bodyParser.json())
 app.use('/books', booksRoute)

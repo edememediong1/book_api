@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add New Book</title>
+    <link rel="stylesheet" href="books.css">
+</head>
+<body>
+<%- include('partials/header') %>
+<h2>Add New Book</h2>
+
+<form action="/books" method="post">
+    <label>
+        Title: <br>
+        <input type="text" name="title" id="title" required>
+    </label>
+    <label>
+        Author: <br>
+        <input type="text" name="author" id="author" required>
+    </label>
+    <label>
+        Poster: <br>
+        <input type="text" name="poster" id="poster" required>
+    </label><br>
+    <button type="submit">Add Book</button>
+</form>
