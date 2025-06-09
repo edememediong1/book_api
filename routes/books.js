@@ -53,8 +53,21 @@ bookRouter.post('/', async (req, res) => {
     res.redirect('/books')
 })
 
-bookRouter.put('/:id', (req, res) => {
-    
+bookRouter.get('/:id/edit', async (req, res) => {
+    const id = req.params.id
+    const books = await readBooks()
+
+    const bookIndex = books.findIndex(book => book.id == id)
+
+    if(bookIndex == -1){
+        res.status(404).send('Book not found!')
+        return 
+    }
+
+    book = books[bookIndex]
+    res.render('edit', {book})
+
+
 })
 
 module.exports = bookRouter
