@@ -53,5 +53,8 @@ bookRouter.post('/', async (req, res) => {
     res.redirect('/books')
 })
 
+bookRouter.put('/:id', (req, res) => {
+    
+})
 
 module.exports = bookRouter
