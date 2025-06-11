@@ -90,4 +90,11 @@ bookRouter.put('/:id', async (req, res) => {
     res.redirect('/books');
 })
 
+bookRouter.delete('/:id', async (req, res) => {
+    const id = req.params.id
+    const books = readBooks()
+
+    
+})
+
 module.exports = bookRouter
