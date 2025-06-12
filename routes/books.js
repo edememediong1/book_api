@@ -92,9 +92,21 @@ bookRouter.put('/:id', async (req, res) => {
 
 bookRouter.delete('/:id', async (req, res) => {
     const id = req.params.id
-    const books = readBooks()
+    const books = await readBooks()
 
-    
+    const bookIndex = books.findIndex(book => book.id == id)
+
+    if (bookIndex == -1){
+        res.status(404).send('Book not found')
+        return
+    }
+
+    books.splice(bookIndex, 1)
+
+    await writeBooks(books)
+
+    res.redirect('/books')
+
 })
 
 module.exports = bookRouter

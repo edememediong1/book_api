@@ -13,7 +13,7 @@
 <form action="/books/<%= book.id %>/edit" method="get">
     <button type="submit">Edit</button>
 </form>
-<form action="/books/<%=book.id %>/delete" method="post">
+<form action="/books/<%=book.id %>?_method=DELETE" method="post">
     <button type="submit">Delete</button>
 </form>
 

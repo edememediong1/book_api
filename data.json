@@ -1,17 +1,5 @@
 [
   {
-    "id": 1,
-    "title": "To Kill a Mockingbird (season 2)",
-    "author": "Harper Lee",
-    "poster": "https://covers.openlibrary.org/b/isbn/9780061120084-L.jpg"
-  },
-  {
-    "id": 2,
-    "title": "1984",
-    "author": "George Orwell",
-    "poster": "https://covers.openlibrary.org/b/isbn/9780451524935-L.jpg"
-  },
-  {
     "id": 3,
     "title": "The Great Gatsby",
     "author": "F. Scott Fitzgerald",
